@@ -1,0 +1,22 @@
+{
+	"host": "http://localhost:3000",
+	"dbURI": "mongodb://localhost/chat",
+	"sessionSecret": "catscanfly",
+	"fb": {
+		"clientID": "1618638748153455",
+		"clientSecret": "5d0e30df6e0b1d0aa29dd9710fe057e7",
+		"callbackURL": "//localhost:3000/auth/facebook/callback",
+		"profileFields": ["id", "displayName", "photos"]
+	},
+	"twitter": {
+		"consumerKey": "SrEjAgaxqSWXyXqRJ3MAQdIrW",
+		"consumerSecret": "icUY2wWlRhE0Sl7R5nBAVZJ8Rwa8L6fVep1gTQgPi1Uo4viRpd",
+		"callbackURL": "//localhost:3000/auth/twitter/callback",
+		"profileFields": ["id", "displayName", "photos"]
+	},
+	"redis": {
+		"host": "127.0.0.1",
+		"port": 6379,
+		"password": ""
+	}
+}
